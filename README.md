@@ -15,7 +15,8 @@ This repository contains the source code and materials for my **Term 2 Design Th
 
 - Training:  
   - A separate folder contains scripts and notebooks to train and fine-tune the MobileNetV3 model for facial emotion recognition.  
-  - The final `.h5` model is not included in this repo due to file size.  
+
+- The setup file for the ESP32 cam through Arduino is included.
 
 ## Tech Stack  
 - Hardware: ESP32-CAM (AI Thinker)  
