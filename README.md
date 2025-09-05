@@ -5,7 +5,7 @@ This repository contains the source code and materials for my **Term 2 Design Th
 ## Project Overview  
 - Student side (ESP32-CAM + Student App):  
   - ESP32-CAM captures images periodically and streams them over USB Serial.  
-  - A Python script (`test.py`) receives the images, runs emotion classification with a MobileNetV3 model, and logs results in JSON format.  
+  - A Python script (`test.py`) receives the images, runs emotion classification with a MobileNetV2 model, and logs results in JSON format.  
   - A macOS Swift app (Student App) connects to the pipeline, processes local data, and (optionally) sends logs to the Teacher App.  
 
 - Teacher side (Teacher App):  
@@ -14,7 +14,7 @@ This repository contains the source code and materials for my **Term 2 Design Th
   - Supports additional analysis using Gemini API (via a secure local secret).  
 
 - Training:  
-  - A separate folder contains scripts and notebooks to train and fine-tune the MobileNetV3 model for facial emotion recognition.  
+  - A separate folder contains scripts to train and fine-tune the MobileNetV2 model for facial emotion recognition.  
 
 - The setup file for the ESP32 cam through Arduino is included.
 
